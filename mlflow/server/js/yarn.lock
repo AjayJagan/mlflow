@@ -4665,7 +4665,7 @@ __metadata:
     react-syntax-highlighter: "npm:^15.4.5"
     react-test-renderer-17: "npm:react-test-renderer@^17.0.2"
     react-treebeard: "npm:2.1.0"
-    react-vega: "npm:^7.6.0"
+    react-vega: "npm:^8.0.0"
     react-virtual: "npm:^2.10.4"
     react-virtualized: "npm:^9.21.2"
     redux: "npm:^4.1.1"
@@ -17748,13 +17748,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-json-patch@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "fast-json-patch@npm:3.1.1"
-  checksum: 10c0/8a0438b4818bb53153275fe5b38033610e8c9d9eb11869e6a7dc05eb92fa70f3caa57015e344eb3ae1e71c7a75ad4cc6bc2dc9e0ff281d6ed8ecd44505210ca8
-  languageName: node
-  linkType: hard
-
 "fast-json-stable-stringify@npm:^2.0.0, fast-json-stable-stringify@npm:^2.1.0":
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
@@ -23032,13 +23025,6 @@ __metadata:
   dependencies:
     jsonify: "npm:~0.0.0"
   checksum: 10c0/3127db54f6507096645411ad9e15abd6091b8a94d675321d5c28ecefe3ddabd07a255d12f27e140dd8af3eb07198c81e4d9a29a14f1f9342546a3e94881bb4f6
-  languageName: node
-  linkType: hard
-
-"json-stringify-pretty-compact@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "json-stringify-pretty-compact@npm:3.0.0"
-  checksum: 10c0/fc522c25047bd96d72ded77af4002e7f12e9ba9f4b7e7e12a9316aee166f1b8f9c7b0d0d989a8494e3fdd804a23819f411479f68f2ef10b2f7a144581b2c68f4
   languageName: node
   linkType: hard
 
@@ -30014,19 +30000,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-vega@npm:^7.6.0":
-  version: 7.6.0
-  resolution: "react-vega@npm:7.6.0"
+"react-vega@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "react-vega@npm:8.0.0"
   dependencies:
-    "@types/react": "npm:*"
-    fast-deep-equal: "npm:^3.1.1"
-    prop-types: "npm:^15.8.1"
-    vega-embed: "npm:^6.5.1"
+    fast-deep-equal: "npm:^3.1.3"
   peerDependencies:
-    react: ^16 || ^17 || ^18
-    vega: "*"
-    vega-lite: "*"
-  checksum: 10c0/9e27cef6ba2ecce94ee18a114b7dbc5f868b8dc1a042c092855872f02a2c59d395010ca98b189ab857206207c7280fd0c38336f3cfcb1b56eaffb769fce9005e
+    react: ^17 || ^18 || ^19
+    react-dom: ^17 || ^18 || ^19
+    vega-embed: ^7
+  checksum: 10c0/beb612334699e2cb165640fc8829290c13449fc8c6243827ce348f83a6a97b4b5af2b29c707180b18e69342f7e6ca935b6bcec9dce0b85c12efb49486ec1ebd3
   languageName: node
   linkType: hard
 
@@ -35348,66 +35331,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vega-embed@npm:^6.5.1":
-  version: 6.21.0
-  resolution: "vega-embed@npm:6.21.0"
-  dependencies:
-    fast-json-patch: "npm:^3.1.1"
-    json-stringify-pretty-compact: "npm:^3.0.0"
-    semver: "npm:^7.3.7"
-    tslib: "npm:^2.4.0"
-    vega-interpreter: "npm:^1.0.4"
-    vega-schema-url-parser: "npm:^2.2.0"
-    vega-themes: "npm:^2.10.0"
-    vega-tooltip: "npm:^0.28.0"
-    yallist: "npm:*"
-  peerDependencies:
-    vega: ^5.21.0
-    vega-lite: "*"
-  checksum: 10c0/dfb0c9627c27b79f7fcdcde03806d3601fe2c6ee0c09d5d19ae72873b3b0f950f9d5285f1f025ee44a86b7f16f934b0337cbaca569fbe376d65c4a89a0c31b8d
-  languageName: node
-  linkType: hard
-
-"vega-interpreter@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "vega-interpreter@npm:1.0.4"
-  checksum: 10c0/b2ea1b79b34efba9107f5364f0885badfe7b568e42fde601f7560f1408fdd6452fa7def115c272a33cffd022610fdf614ea346347b327813d732f8466465c654
-  languageName: node
-  linkType: hard
-
-"vega-schema-url-parser@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "vega-schema-url-parser@npm:2.2.0"
-  checksum: 10c0/286ca81403836ebfa9ec4aaab06195128507c0800e942ab669fab8209ad1b8ca2a6729e2a7e853a7bcbcc598a17806fb4c43e0266640af2e3b89bb7da0a6e2b4
-  languageName: node
-  linkType: hard
-
-"vega-themes@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "vega-themes@npm:2.10.0"
-  peerDependencies:
-    vega: "*"
-    vega-lite: "*"
-  checksum: 10c0/ed35a2c5205bd9ddf13a6b898e2873e888b0417f77b1e959a89dae4f2bab88a00e38e1f1e8b6385844ab85fffc765c38f969f01fe98aebf810185c0eb6e77d46
-  languageName: node
-  linkType: hard
-
-"vega-tooltip@npm:^0.28.0":
-  version: 0.28.0
-  resolution: "vega-tooltip@npm:0.28.0"
-  dependencies:
-    vega-util: "npm:^1.17.0"
-  checksum: 10c0/e415fbb21bce11506d139f679d7ce1dc97c718943c3c84f130107a2c88728314ae5ee0d7c0e05586f337a12ab4ba3bcfb4ed6db8c8e7c7063bdc9a395a490abc
-  languageName: node
-  linkType: hard
-
-"vega-util@npm:^1.17.0":
-  version: 1.17.2
-  resolution: "vega-util@npm:1.17.2"
-  checksum: 10c0/a1ebf62234dbb0d0ecc5d01b9016f6ed9f40e77bac93ea0213dd24299fe0e2c80d33418f4c4c703532c380eb4f16d0f4df7028ec9249f3f0741ec8271c190b2e
-  languageName: node
-  linkType: hard
-
 "velocity-animate@npm:^1.4.0":
   version: 1.5.2
   resolution: "velocity-animate@npm:1.5.2"
@@ -36637,17 +36560,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yallist@npm:*, yallist@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "yallist@npm:4.0.0"
-  checksum: 10c0/2286b5e8dbfe22204ab66e2ef5cc9bbb1e55dfc873bbe0d568aa943eb255d131890dfd5bf243637273d31119b870f49c18fcde2c6ffbb7a7a092b870dc90625a
-  languageName: node
-  linkType: hard
-
 "yallist@npm:^3.0.0, yallist@npm:^3.0.2, yallist@npm:^3.0.3":
   version: 3.1.1
   resolution: "yallist@npm:3.1.1"
   checksum: 10c0/c66a5c46bc89af1625476f7f0f2ec3653c1a1791d2f9407cfb4c2ba812a1e1c9941416d71ba9719876530e3340a99925f697142989371b72d93b9ee628afd8c1
+  languageName: node
+  linkType: hard
+
+"yallist@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "yallist@npm:4.0.0"
+  checksum: 10c0/2286b5e8dbfe22204ab66e2ef5cc9bbb1e55dfc873bbe0d568aa943eb255d131890dfd5bf243637273d31119b870f49c18fcde2c6ffbb7a7a092b870dc90625a
   languageName: node
   linkType: hard
 
