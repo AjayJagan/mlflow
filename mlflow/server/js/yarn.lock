@@ -4670,7 +4670,7 @@ __metadata:
     react-virtualized: "npm:^9.21.2"
     redux: "npm:^4.1.1"
     redux-mock-store: "npm:^1.5.3"
-    redux-promise-middleware: "npm:^5.1.1"
+    redux-promise-middleware: "npm:^6.0.0"
     redux-thunk: "npm:^2.3.0"
     remark-gfm-4: "npm:remark-gfm@4"
     sanitize-html: "npm:^1.18.5"
@@ -30234,12 +30234,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux-promise-middleware@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "redux-promise-middleware@npm:5.1.1"
+"redux-promise-middleware@npm:^6.0.0":
+  version: 6.2.0
+  resolution: "redux-promise-middleware@npm:6.2.0"
   peerDependencies:
-    redux: ^2.0.0 || ^3.0.0 || ^4.0.0
-  checksum: 10c0/e38808068d4e7c86d78540ba1ffcf975ec2cd77d0d6f09ed2e50500778c47e22a47bf3ae4242de4b9fd7411e1a79ead18038122789bb83e2f518be8fb7892935
+    redux: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
+  checksum: 10c0/73f7610f9695ff47dd7e9b26b5cef6d65044061f0f50127889294882752669fb861beef3c95d1c9f10f74e01b70353abe8fd707e296b647a205d6514540f1de0
   languageName: node
   linkType: hard
 
