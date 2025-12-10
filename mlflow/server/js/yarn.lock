@@ -4668,7 +4668,7 @@ __metadata:
     react-vega: "npm:^7.6.0"
     react-virtual: "npm:^2.10.4"
     react-virtualized: "npm:^9.21.2"
-    redux: "npm:^4.1.1"
+    redux: "npm:^5.0.0"
     redux-mock-store: "npm:^1.5.3"
     redux-promise-middleware: "npm:^5.1.1"
     redux-thunk: "npm:^2.3.0"
@@ -30256,6 +30256,13 @@ __metadata:
   dependencies:
     "@babel/runtime": "npm:^7.9.2"
   checksum: 10c0/3c6af9724bb39ead9d6a7e2bd422f898136d44e0ff3abe8ccafd6be8a6e219ae4f8bea0b154173e42da829979394944ec47a91eea961997eb95d31af60597ebe
+  languageName: node
+  linkType: hard
+
+"redux@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "redux@npm:5.0.1"
+  checksum: 10c0/b10c28357194f38e7d53b760ed5e64faa317cc63de1fb95bc5d9e127fab956392344368c357b8e7a9bedb0c35b111e7efa522210cfdc3b3c75e5074718e9069c
   languageName: node
   linkType: hard
 
