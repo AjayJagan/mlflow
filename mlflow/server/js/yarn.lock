@@ -4597,7 +4597,7 @@ __metadata:
     eslint-config-standard: "npm:10.2.1"
     eslint-import-resolver-webpack: "npm:0.8.4"
     eslint-loader: "npm:2.1.1"
-    eslint-plugin-chai-expect: "npm:1.1.1"
+    eslint-plugin-chai-expect: "npm:4.1.0"
     eslint-plugin-chai-friendly: "npm:^0.7.2"
     eslint-plugin-cypress: "npm:^2.12.1"
     eslint-plugin-flowtype: "npm:^8.0.3"
@@ -16852,10 +16852,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-chai-expect@npm:1.1.1":
-  version: 1.1.1
-  resolution: "eslint-plugin-chai-expect@npm:1.1.1"
-  checksum: 10c0/0aa293eb0be9fa9815f9995d47f60109f2d6c218ac2763b5ea5bea017e9eccd2af29f1d63ec5d0b6ac488dbf84f3db21a57a80080fd3df629aa12f76ead729b3
+"eslint-plugin-chai-expect@npm:4.1.0":
+  version: 4.1.0
+  resolution: "eslint-plugin-chai-expect@npm:4.1.0"
+  peerDependencies:
+    eslint: ">=2.0.0 <=10.x"
+  checksum: 10c0/9515bdb796e3c7231d63bbb3b4af97ab4bf1e18a9cdf81aa370d6da84faac55730b1742b3ed5cda0e7ca775e2c0ccc718b5cad7bb502fcaa4de1d30a2c2040da
   languageName: node
   linkType: hard
 
