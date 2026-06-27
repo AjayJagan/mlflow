@@ -4569,7 +4569,7 @@ __metadata:
     "@types/react": "npm:^17.0.50"
     "@types/react-dom": "npm:^17.0.17"
     "@types/react-plotly.js": "npm:^2.5.0"
-    "@types/react-resizable": "npm:^3.0.3"
+    "@types/react-resizable": "npm:^4.0.0"
     "@types/react-router": "npm:^5.1.20"
     "@types/react-router-dom": "npm:^5.3.3"
     "@types/react-virtualized": "npm:^9.21.9"
@@ -4658,7 +4658,7 @@ __metadata:
     react-pdf: "npm:^10.0.1"
     react-plotly.js: "npm:^2.5.1"
     react-redux: "npm:^7.2.5"
-    react-resizable: "npm:^3.0.4"
+    react-resizable: "npm:^4.0.0"
     react-router: "npm:^6.4.0"
     react-router-dom: "npm:^6.4.3"
     react-scripts: "npm:5.0.0"
@@ -9193,12 +9193,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-resizable@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@types/react-resizable@npm:3.0.3"
+"@types/react-resizable@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@types/react-resizable@npm:4.0.0"
   dependencies:
-    "@types/react": "npm:*"
-  checksum: 10c0/7ee40113239bd4f6600038eb6d6dda35aa65fbc4c438ae548792ba81d0bc8e095db320de8d8b9b5e4265dc557414050f49a102f5aa106d0086452943fd8a9b6b
+    react-resizable: "npm:*"
+  checksum: 10c0/81d89661b7fc76fca5da6524d719d9e71855d4bf2f7286aff3d2d3c5257ed581a03ce877ee4831975a273bc8b44d0f909e66ed5b4f3b6b08698fbd3addb8623c
   languageName: node
   linkType: hard
 
@@ -13531,7 +13531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^2.0.0":
+"clsx@npm:^2.0.0, clsx@npm:^2.1.1":
   version: 2.1.1
   resolution: "clsx@npm:2.1.1"
   checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
@@ -29563,6 +29563,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-draggable@npm:^4.5.0":
+  version: 4.7.0
+  resolution: "react-draggable@npm:4.7.0"
+  dependencies:
+    clsx: "npm:^2.1.1"
+    prop-types: "npm:^15.8.1"
+  peerDependencies:
+    react: ">= 16.3.0"
+    react-dom: ">= 16.3.0"
+  checksum: 10c0/4bfd46025b6009585a644d17721cafcd7976c058c250086c06c1a952724230c83caa548c54f9b5849c3a148144e3ed6610a1745b2afc6db685c85c56a0b4f775
+  languageName: node
+  linkType: hard
+
 "react-element-to-jsx-string@npm:^14.3.4":
   version: 14.3.4
   resolution: "react-element-to-jsx-string@npm:14.3.4"
@@ -29807,6 +29820,19 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 10c0/4952657e6a7b9d661d4ad4dfcef81b9c7fa493e35164abff99c35c0b27b3d172ef7ad70c09416dc44dd14ff2e6b38a5ec7da27e27e90a15cbad36b8fd2fd8054
+  languageName: node
+  linkType: hard
+
+"react-resizable@npm:*, react-resizable@npm:^4.0.0":
+  version: 4.0.2
+  resolution: "react-resizable@npm:4.0.2"
+  dependencies:
+    prop-types: "npm:15.x"
+    react-draggable: "npm:^4.5.0"
+  peerDependencies:
+    react: ">= 16.3"
+    react-dom: ">= 16.3"
+  checksum: 10c0/e8a47ee5c9c8c308a88c1eb79194574aa4d0d745ced95c29e4ebe72db3011d77fc238fee9691e2a52eff9d1f5b3424a757548a93217355056954645ae67fc266
   languageName: node
   linkType: hard
 
