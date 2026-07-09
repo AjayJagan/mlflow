@@ -21955,12 +21955,12 @@ __metadata:
   linkType: hard
 
 "jest-canvas-mock@npm:^2.2.0":
-  version: 2.4.0
-  resolution: "jest-canvas-mock@npm:2.4.0"
+  version: 2.5.8
+  resolution: "jest-canvas-mock@npm:2.5.8"
   dependencies:
     cssfontparser: "npm:^1.2.1"
     moo-color: "npm:^1.0.2"
-  checksum: 10c0/f0bfa05505cca1bcc7169745898bb075ab30b5cd29c3da2f90b289e4c853ac0cfb8d888d8bd3ac2a23d5f558fa9c2171b24cfe0bfad10344cc85e95d2b404b12
+  checksum: 10c0/25e621650bebb0a7c86fa6cf0ba8ab463dd784514a922875b2707e458d29aef943de5b9f3032d378f089c15d6676bd10f4542b822a67d9e715eb93c4ae11c51e
   languageName: node
   linkType: hard
 
