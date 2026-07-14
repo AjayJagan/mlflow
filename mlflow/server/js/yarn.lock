@@ -4618,7 +4618,7 @@ __metadata:
     file-saver: "npm:^2.0.5"
     font-awesome: "npm:4.7.0"
     graphql: "npm:^15.5.0"
-    graphql-codegen-typescript-operation-types: "npm:^2.0.1"
+    graphql-codegen-typescript-operation-types: "npm:^3.0.0"
     http-proxy-middleware: "npm:^1.0.3"
     immutable: "npm:3.8.1"
     invariant: "npm:^2.2.4"
@@ -19521,15 +19521,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-codegen-typescript-operation-types@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "graphql-codegen-typescript-operation-types@npm:2.0.1"
-  dependencies:
-    "@graphql-codegen/plugin-helpers": "npm:^5.0.0"
-    "@graphql-codegen/typescript": "npm:^4.0.1"
+"graphql-codegen-typescript-operation-types@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "graphql-codegen-typescript-operation-types@npm:3.0.0"
   peerDependencies:
+    "@graphql-codegen/plugin-helpers": ^6 || ^7
+    "@graphql-codegen/typescript": ^5 || ^6
     graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 10c0/1dd1182d97f53ae5b0cee5319765638aff86c3ef09f81c04a8a0e5c78dc26d9c0e0def2708fb958b07e5bd1c1745e40983443eda1cbad9f9c4c04176bce1f531
+  checksum: 10c0/023f08b2c73ef594a510b39659ec3cd9c04aeed8095a587979d03753792bfde6c59eda94b737a680a35fe93444465c2944546eccad9810023529cd3e774c5156
   languageName: node
   linkType: hard
 
