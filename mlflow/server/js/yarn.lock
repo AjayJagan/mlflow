@@ -5064,9 +5064,9 @@ __metadata:
   linkType: hard
 
 "@patternfly/react-tokens@npm:^6.4.0":
-  version: 6.4.0
-  resolution: "@patternfly/react-tokens@npm:6.4.0"
-  checksum: 10c0/9b49ac8f1703de0e5b2b6d1154dbf83dbb40eea2850ce1f50ac173cd3d2cc9d4a1ca085c7c3db2a538aa6c137db186cbe783f1ab5985e843dfd455e9095f1a93
+  version: 6.6.1
+  resolution: "@patternfly/react-tokens@npm:6.6.1"
+  checksum: 10c0/818f0539722c147a83c35bd53860b80566117c823706e51228f652754c2053410da987712b21def02d55c39845c9d129819e96a78870cc390db80df59c127a8b
   languageName: node
   linkType: hard
 
