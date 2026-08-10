@@ -4564,7 +4564,7 @@ __metadata:
     "@types/file-saver": "npm:^2.0.3"
     "@types/invariant": "npm:^2.2.35"
     "@types/jest": "npm:^29.5.14"
-    "@types/pako": "npm:^2.0.0"
+    "@types/pako": "npm:^3.0.0"
     "@types/plotly.js": "npm:^1.54.21"
     "@types/react": "npm:^17.0.50"
     "@types/react-dom": "npm:^17.0.17"
@@ -4632,7 +4632,7 @@ __metadata:
     mod-arch-kubeflow: "npm:^1.2.1"
     moment: "npm:^2.29.4"
     msw: "npm:^1.2.3"
-    pako: "npm:0.2.7"
+    pako: "npm:3.0.1"
     papaparse: "npm:^5.3.2"
     parcoord-es: "npm:^2.2.10"
     pdfjs-dist: "npm:^5.3.31"
@@ -9090,10 +9090,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/pako@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@types/pako@npm:2.0.0"
-  checksum: 10c0/3cf14d21c5bc7f95bc26e910f65b0516994a7229f7f38144f811fd08efefef939855a253a60d5f9961eba6811a0a28a54e9700062b973134d029ffd70dcc7639
+"@types/pako@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@types/pako@npm:3.0.0"
+  dependencies:
+    pako: "npm:*"
+  checksum: 10c0/ea49de4d409d1ab03fb63b0def6de097517e4ff5786a0e656d4a0abbec29797c344bd60ee1f991b4ee235aeb456ab548d44f9491d4431f1da129f1fcb5fd7610
   languageName: node
   linkType: hard
 
@@ -26492,10 +26494,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pako@npm:0.2.7":
-  version: 0.2.7
-  resolution: "pako@npm:0.2.7"
-  checksum: 10c0/ee3d38ec51797d80582c957ac1faf2f17590ae7415dce547a6909d30a95d48d647a1d08f82f1cdbf3cace6a29ef87a6493bc22021a3294f52786c6ce15f41431
+"pako@npm:*, pako@npm:3.0.1":
+  version: 3.0.1
+  resolution: "pako@npm:3.0.1"
+  checksum: 10c0/1292b2ffcbdf42f95be5519ffc11c4cb8daf065f7681936a5b0fe2028753396fbaea0c22cb22e54a4f12bb0c3217513f6b2261fa77e4dbf8c9bd76efe3eca2cc
   languageName: node
   linkType: hard
 
