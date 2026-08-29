@@ -19591,16 +19591,16 @@ __metadata:
   linkType: hard
 
 "graphql@npm:^15.0.0 || ^16.0.0":
-  version: 16.7.1
-  resolution: "graphql@npm:16.7.1"
-  checksum: 10c0/0b4e83382bf3cb9c82ddf61a51aab382c4de50c34025173285c580135fe8646aa281c264fcf0c2214ae92ea925742d86999fe5e2ad842b6f3b54a9ffb0b299d2
+  version: 16.14.2
+  resolution: "graphql@npm:16.14.2"
+  checksum: 10c0/a95a96961eaff55cc9fe9d31fae6f33499ac988b972d07ea5085024cb1333f515b902f376e7393a5489aa82200a8aff3eb96580e4d1b69d702ed19b6eb1ce97a
   languageName: node
   linkType: hard
 
 "graphql@npm:^15.5.0":
-  version: 15.5.3
-  resolution: "graphql@npm:15.5.3"
-  checksum: 10c0/992d71d24ca2331d17de1eec978f1a438c6719c161c858eae67a1b5ef41e994052fbd93622636997795ab0e2c300c19fb5f67c9551023475161ed040f6c81b91
+  version: 15.10.3
+  resolution: "graphql@npm:15.10.3"
+  checksum: 10c0/8d404ed4810a2ebcbb194972b8eb552530680a10b11700b4f771c4e3817a31662a5b120913f29e569af717e1486921cfad8387167aa19df713241a2c901af70d
   languageName: node
   linkType: hard
 
