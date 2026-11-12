@@ -4659,7 +4659,7 @@ __metadata:
     react-plotly.js: "npm:^2.5.1"
     react-redux: "npm:^7.2.5"
     react-resizable: "npm:^3.0.4"
-    react-router: "npm:^6.4.0"
+    react-router: "npm:^7.0.0"
     react-router-dom: "npm:^6.4.3"
     react-scripts: "npm:5.0.0"
     react-syntax-highlighter: "npm:^15.4.5"
@@ -6590,13 +6590,6 @@ __metadata:
   version: 3.0.0
   resolution: "@react-dnd/shallowequal@npm:3.0.0"
   checksum: 10c0/07fa124ed60904304ccaa8ab9386ffd3f60ba8795e7268b9e329c35e6a2f0222b35d62dca9039b78636d246b59cc3f9903d84cb089134921b8438bf06719ef3d
-  languageName: node
-  linkType: hard
-
-"@remix-run/router@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@remix-run/router@npm:1.0.1"
-  checksum: 10c0/d053f1584fb87437832003ec7f4bbdfa9113266b7af743ee7a5e062ad9114851c17986939984b2f3368251460dc3e51bf6e95681d6faa6d8159bb7104d0cf028
   languageName: node
   linkType: hard
 
@@ -14066,6 +14059,13 @@ __metadata:
   version: 0.4.2
   resolution: "cookie@npm:0.4.2"
   checksum: 10c0/beab41fbd7c20175e3a2799ba948c1dcc71ef69f23fe14eeeff59fc09f50c517b0f77098db87dbb4c55da802f9d86ee86cdc1cd3efd87760341551838d53fca2
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^1.0.1":
+  version: 1.1.1
+  resolution: "cookie@npm:1.1.1"
+  checksum: 10c0/79c4ddc0fcad9c4f045f826f42edf54bcc921a29586a4558b0898277fa89fb47be95bc384c2253f493af7b29500c830da28341274527328f18eba9f58afa112c
   languageName: node
   linkType: hard
 
@@ -29846,14 +29846,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:^6.4.0":
-  version: 6.4.1
-  resolution: "react-router@npm:6.4.1"
+"react-router@npm:^7.0.0":
+  version: 7.18.5
+  resolution: "react-router@npm:7.18.5"
   dependencies:
-    "@remix-run/router": "npm:1.0.1"
+    cookie: "npm:^1.0.1"
+    set-cookie-parser: "npm:^2.6.0"
   peerDependencies:
-    react: ">=16.8"
-  checksum: 10c0/08b542b97c4c74da160965fdb76895942e93e997df0bed114913712e20ab69c4b41b8c1274a384867e4573ab75c0098f48af816f527a0b8781177999e96d5d86
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10c0/dbed9b4d0019873615028e2fe7bf7782ab4f41d9f287595b9a82f4a6d619dc5d3b88449fb3e717282f9f558312f29f88325372a7bb67355472703291607f9280
   languageName: node
   linkType: hard
 
@@ -31661,6 +31666,13 @@ __metadata:
   version: 2.4.8
   resolution: "set-cookie-parser@npm:2.4.8"
   checksum: 10c0/2ada2102dda9b1d2c1b7d4bfeafc80b2f0952b1f9d9069b65312db573b7e73bc41ee30e83d702eb18c5346b5ec455c2d62096150d7ab5be4121aacc2bcbfec4e
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.3
+  resolution: "set-cookie-parser@npm:2.7.3"
+  checksum: 10c0/cf15a6124afd833b09d0d7b60148ba8b2a09cb8e7a4c4d5826a1fcbcd6c11bda338f6d728511ceb79fa977aca7b8025e1f6bec5d27faab4875aa5a707e5735b8
   languageName: node
   linkType: hard
 
