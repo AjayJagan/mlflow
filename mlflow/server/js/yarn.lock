@@ -4651,7 +4651,7 @@ __metadata:
     react-draggable: "npm:^4.4.6"
     react-error-boundary: "npm:^4.0.2"
     react-hook-form: "npm:^7.36.0"
-    react-iframe: "npm:1.8.0"
+    react-iframe: "npm:2.0.1"
     react-intl: "npm:^6.0.4"
     react-markdown-10: "npm:react-markdown@10"
     react-mde: "npm:^11.0.0"
@@ -29604,14 +29604,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-iframe@npm:1.8.0":
-  version: 1.8.0
-  resolution: "react-iframe@npm:1.8.0"
-  dependencies:
-    object-assign: "npm:^4.1.1"
+"react-iframe@npm:2.0.1":
+  version: 2.0.1
+  resolution: "react-iframe@npm:2.0.1"
   peerDependencies:
-    react: ">=16.x.x"
-  checksum: 10c0/2b7ba7ab5bc12db3c18a76a6edc86eb695cac96f4b59226e5a39970850da6ddb4ffc48fda787e22df2ee5328f2ea78f53035b80dd00dd1541d286c3f5b8f518b
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 10c0/ad98566a2d0684618c14557f0acd28f002ff595680e021401f0daceaed54050ee480e1c2821efc19970bde4866cf079f7c98daa083408acb3cac61a25a26383c
   languageName: node
   linkType: hard
 
