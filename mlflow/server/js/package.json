@@ -78,7 +78,7 @@
     "react-intl": "^6.0.4",
     "react-markdown-10": "npm:react-markdown@10",
     "react-mde": "^11.0.0",
-    "react-pdf": "^10.0.1",
+    "react-pdf": "^11.0.0",
     "react-plotly.js": "^2.5.1",
     "react-redux": "^7.2.5",
     "react-resizable": "^3.0.4",
